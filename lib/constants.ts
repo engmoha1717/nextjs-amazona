@@ -55,3 +55,9 @@ export const FREE_SHIPPING_MIN_PRICE = Number(
       freeShippingMinPrice: 35,
     },
   ]  
+
+  export const SERVER_URL =
+  process.env.NEXT_PUBLIC_SERVER_URL || 'http://localhost:3000'
+
+export const SENDER_EMAIL = process.env.SENDER_EMAIL || 'onboarding@resend.dev'
+export const SENDER_NAME = process.env.SENDER_NAME || APP_NAME
